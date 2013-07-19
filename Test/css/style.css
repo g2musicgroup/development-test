@@ -1,0 +1,70 @@
+body { 
+    background: #fff;
+    font: 14px/18px; 
+    font-family: 'Lato', sans-serif;
+    color: #000; 
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: none;
+}
+
+.left {
+	float: left;
+	height: 30px; 
+	padding: 10px 100px;
+}
+
+ #navbar ul { 
+	margin: 0; 
+	padding: 20px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #252729; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #252729; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #fff; 
+	background-color: #dc3d31; 
+	} 
+
+/* Media Queries
+        
+        /* Mobile and iPad Portrait */
+    	@media only screen and (max-width: 979px) {
+    	    #content { width: 748px; }
+            #container {padding: 35px;}
+            #main {margin-left: 380px;}
+    	}
+
+
+    	
+    	/* Mobile Landscape and Portrait */
+    	@media only screen and (max-width: 767px) {
+    	    #content { width: 400px; }
+    	    #content h1 { font-size: 22px; line-height: 30px; background-color: #000; color: #ff7800; padding: 10px; }
+    	    #content ul#nav { display: none; }
+    	    
+    	    .open { display: block; }
+    	    #pageslide { width: 200px; }
+    	        #pageslide #nav li { padding: 10px 0; border-bottom: 1px solid #666; }
+    	        #pageslide #nav li a { color: #0fb0e5; border: none; }
+    	        #pageslide #nav li a:hover { text-decoration: underline; color: #fff }
+
+            #container {padding: 20px 30px;}
+            #main {margin-left: 0;}
+    	}
+    	
+    	/* Mobile Portrait */
+        @media only screen and (max-width: 479px) {
+            #content { width: 280px; }
+            #content h1 { font-size: 14px; }
