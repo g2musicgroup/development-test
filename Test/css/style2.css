@@ -46,7 +46,8 @@ ul.main-nav li a:hover {
 .search {
 	position: relative;
 	top: 6px;
-}  
+}
+
 
 .masthead {
 	background: #ecf0f1;
@@ -74,6 +75,7 @@ ul.main-nav li a:hover {
 
 #content h1 {
 	font-weight: bold;
+	margin-bottom: -10px;
 
 }
 
@@ -85,10 +87,33 @@ ul.main-nav li a:hover {
 	color: #7f8c8d;
 }
 
-#content ul.social li {
+ ul.social, ul.social li {
 	list-style: none;
 	display: inline;
 	width: 100px;
+	margin: 4px;
+	padding: 0;
+}
+
+.freq {
+	font-size: 0.800em;
+}
+
+h4 {
+	color: #8f9a9b;
+	margin: 10px;
+}
+
+.masthead_2 {
+	background: #ecf0f1;
+	padding: 0;
+}
+
+.masthead_2 p {
+	list-style: none;
+	line-height: 150%;
+	font-size: 1em;
 	margin: 10px;
 	padding: 0;
+	text-align: left;
 }
