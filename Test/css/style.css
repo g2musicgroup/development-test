@@ -76,6 +76,10 @@ body {
 	margin-left: 200px;
 }
 
+ul.list {
+	margin: 0px !important;
+}
+
 #rightad {
 	float: right;
 	margin: 200px;

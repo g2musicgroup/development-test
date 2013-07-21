@@ -9,6 +9,7 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+
 .row {
 	margin-bottom: 20px;
 }
@@ -19,22 +20,27 @@ body {
 	line-height: 56px;
 }
 
+.branding {
+	position: relative;
+	top: 5px;
+}
+
 ul.main-nav, ul.main-nav li {
 	list-style: none;
 	font-weight: bold;
-	font-size: 0.915em;
+	font-size: 0.960em;
 	color: white;
 	display: inline;
 	width: 100px;
-	margin: 4px ;
-	padding: 0; 
+	margin: 0;
+	padding: -10px 0; 
 	text-align: center;
 }
 
 ul.main-nav li a { 
 	text-decoration: none; 
-	padding: .2em 1em; 
-	color: #fff; 
+	padding: .1em 1em; 
+	color: #a6a7a9; 
 	background-color: #252729; 
 }
 
@@ -45,9 +51,13 @@ ul.main-nav li a:hover {
 
 .search {
 	position: relative;
-	top: 6px;
+	top: 5px;
+	margin-left: 40px;
 }
 
+p {
+	margin-bottom: 40px;
+}
 #ad {
 	margin: 20px 0;
 }
@@ -57,13 +67,17 @@ ul.main-nav li a:hover {
 	padding: 2px;
 }
 
+.masthead ul {
+	padding: 10px;
+}
+
 .masthead ul li {
 	list-style: none;
 	display: inline;
-	width: 100px;
-	margin: 5px;
-	padding: 0;
-	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 4px;
+	/*text-align: center;*/
 }
 
 .rednav a {
@@ -77,8 +91,10 @@ ul.main-nav li a:hover {
 }
 
 #content h1 {
+	font-family: "Lato", sans-serif;
+	font-size: 2.2em;
 	font-weight: bold;
-	margin-bottom: -10px;
+	margin-bottom: 10px;
 
 }
 
@@ -103,7 +119,11 @@ ul.main-nav li a:hover {
 }
 
 #picture {
-	margin: 10px 0;
+	margin: 20px 0;
+}
+
+.title {
+	font-size: 1.5em;
 }
 
 h2 {
@@ -111,15 +131,41 @@ h2 {
 	color: #313539;
 }
 
-h4 {
+p.first:first-letter {
+	font-size: 300%;
+}
+
+p.first:first-line {
+	line-height: 100%;
+}
+
+p {
+	line-height: 1.5em;
+}
+ul.list { margin: 0px; }
+ul.list li {
+	margin: 0;
+	list-style: none;
+	display: inline;
+}
+
+ul.list li a {
+	margin: 0;
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #45494c;
+}
+
+h5 {
 	color: #8f9a9b;
 	margin: 10px;
 }
 
 .masthead_2 {
 	background: #ecf0f1;
-	padding: 10px;
-	margin: 10px 0;
+	padding: 40px 10px;
+	margin: 20px 0;
 }
 
 .masthead_2 p {
