@@ -15,7 +15,9 @@
 
 	<!-- StyleSheets under here -->
 	<!-- <link rel="stylesheet" href="themes/CS_Theme_1.min.css" /> -->
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/960.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
@@ -23,37 +25,78 @@
 	<script src="js/libs/modernizr.custom.min.js"></script>
 
 </head>
+
 <body>
 	<div id="header">
-		<h1><a href="index.html"><img src="image/logo_top_03.png" class="left"></a></h1>
+		<!-- Main Site Container -->
+		<div class="container_12">
 
-		<div id="navbar">
-			<ul>
-				<li>
-					<a href="index.html">News</a>
-				</li>
-				<li>
-					<a href="#">Tracks</a>
-				</li>
-				<li>
-					<a href="#">Videos</a>
-				</li>
-				<li>
-					<a href="#">Reviews</a>
-				</li>
-				<li>
-					<a href="#">Editorials</a>
-				</li>
-				<li>
-					<a href="#">Interviews</a>
-				</li>
-				<li>
-					<a href="#">Lists</a>
-				</li>
-				<li>
-					<a href="#">Giveaways</a>
-				</li>
-			</ul>
+			<!-- Main Nav -->
+			<div class="row">
+				<div class="grid_2">
+					<a class='branding' href="index.html"><img src="image/logo_top_03.png" class="left"></a>
+				</div>
+
+				<div class="grid_9">
+					<ul class="main-nav">
+						<li class="navItem"><a href="#">News</a></li>
+						<li class="navItem"><a href="#">Tracks</a></li>
+						<li class="navItem"><a href="#">Videos</a></li>
+						<li class="navItem"><a href="#">Reviews</a></li>
+						<li class="navItem"><a href="#">Editorials</a></li>
+						<li class="navItem"><a href="#">Interviews</a></li>
+						<li class="navItem"><a href="#">Lists</a></li>
+						<li class="navItem"><a href="#">Giveaways</a></li>
+					</ul>
+				</div>
+				<div class="grid_1">
+					<a class="search" href="#"><img src="image/search_03.png"></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!-- Top Advertisement -->
+			<div class="grid_12 row">
+				<img src="image/topAd.gif">
+			</div>
+			<div class="clear"></div>
+			<!--  Masthead -->
+			<div class="grid_12 row">
+				<div class="masthead">
+					<ul>
+						<li class="rednav"><a href="#">Home</a></li>
+						<li><img src="image/arrow_07.gif"></li>
+						<li class="rednav"><a href="#">News</a></li>
+						<li><img src="image/arrow_09.gif"></li>
+						<li class="greynav">Jay-Z Says "CNN Is Almost Like TMZ"</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			
+			<div class="row">
+				<!-- Article & Content -->
+				<div class="grid_8">
+					<div id="content">
+						<h1>Jay-Z Says, "CNN Is Almost Like TMZ"</h1>
+						<p><span class="dark">Posted by </span><span class="highlight">Soren Baker</span> <span class="dark">on July 11, 2013 at 3:15pm</span></p>
+						<ul class="social">
+							<li><img src="image/fb.png"></li>
+							<li><img src="image/tweet.png"></li>
+							<li><img src="image/gplus.png"></li>
+							<li><img src="image/instagram.png"></li>
+							<li><img src="image/pic.png"></li>
+							<li><img src="image/freq.png"></li>
+							<li><img src="image/chat.png"></li>
+							
+						</ul>
+						<img src="image/jay-bey.jpg">
+					</div>				
+				</div>
+				<!-- Right side (Ad Unit & Content) -->
+				<div class="grid_4">
+					<img src="image/rightAd.jpg" id="rightad">
+				</div>
+			</div>
 		</div>
 	</div>
 

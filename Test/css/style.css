@@ -1,3 +1,5 @@
+
+
 body { 
     background: #fff;
     font: 14px/18px; 
@@ -13,8 +15,8 @@ body {
 	padding: 10px 100px;
 }
 
- #navbar ul { 
-	margin: 0; 
+#navbar ul { 
+	margin: 0 auto; 
 	padding: 20px; 
 	list-style-type: none; 
 	text-align: center; 
@@ -36,6 +38,49 @@ body {
 	color: #fff; 
 	background-color: #dc3d31; 
 	} 
+
+.topad {
+	margin: 0;
+	padding: 10px 200px;
+
+}
+* {
+	outline: 1px solid red;
+}
+
+#contentnav ul {
+	margin-left: 200px;
+	margin-right: 280px;
+	padding: 20px 4px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #ecf0f1; 
+}
+
+#contentnav ul li {  
+	display: inline; 
+	} 
+
+#contentnav ul li a { 
+	text-decoration: none; 
+	padding: .1em 1em;
+	float: left;
+	color: #dc3d31; 
+	} 
+
+#contentnav ul li a:hover { 
+	color: #dc3d31; 
+	} 
+
+#content {
+	margin-left: 200px;
+}
+
+#rightad {
+	float: right;
+	margin: 200px;
+}
+
 
 /* Media Queries
         
