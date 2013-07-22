@@ -244,6 +244,7 @@ h3 {
 	font-size: 1.5em;
 	margin-top: 20px;
 	margin-left: 20px;
+	color: #7f8c8d;
 }
 
 h4 {
@@ -254,6 +255,7 @@ h4 {
 }
 p.info {
 	margin-left: 20px;
+	color: #7f8c8d;
 }
 
 .related {
