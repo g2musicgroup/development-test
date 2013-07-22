@@ -9,6 +9,9 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+hr {
+	margin-top: 10px;
+}
 
 .row {
 	margin-bottom: 20px;
@@ -89,7 +92,7 @@ ul.main-nav li a:hover {
 
 #content h1 {
 	font-family: "Lato", sans-serif;
-	font-size: 2em;
+	font-size: 2.2em;
 	font-weight: bold;
 	margin-bottom: 10px;
 
@@ -103,7 +106,7 @@ p .highlight {
 	color: #7f8c8d;
 }
 
- ul.social, ul.social li {
+ul.social, ul.social li {
 	list-style: none;
 	display: inline;
 	width: 100px;
@@ -158,6 +161,7 @@ ul.list li a {
 	padding: .2em 1em; 
 	color: #fff; 
 	background-color: #45494c;
+	border-radius: 4px;
 }
 
 #avi {
@@ -167,6 +171,11 @@ ul.list li a {
 h5 {
 	color: #8f9a9b;
 	margin: 10px;
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
 }
 
 .masthead_2 {
@@ -192,6 +201,12 @@ h3 {
 	margin-left: 20px;
 }
 
+h4 {
+	font-size: 1em;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+}
 p.info {
 	margin-left: 20px;
 }
@@ -204,14 +219,26 @@ p.info {
 h6 {
 	font-weight: bold;
 	color: #7f8c8d;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 
-.rel {
-	margin: 10px 0;
-	font-size: 0.800em;
-	text-align: left;
+a.one {
+	padding: 0.600em;
+	text-decoration: none;
+	font-size: 1em;
+	color: #313539;
+	text-align: center;
 }
 
-#mchg {
-	margin-left: 60px;
+#submit {
+	color: #fff;
+	font-size: 0.750em;
+	background: red;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+#space {
+	margin-top: 20px;
 }
