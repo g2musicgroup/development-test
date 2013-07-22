@@ -1,3 +1,8 @@
+header {
+	margin: 0;
+	padding: 56px;
+}
+
 body { 
 	margin: 0;
 	padding: 0;
@@ -9,14 +14,8 @@ body {
     -webkit-text-size-adjust: none;
 }
 
-footer {
-	margin: 0;
-	padding: 0;
-	background: #ecf0f1;
-}
-
 hr {
-	margin-top: 10px;
+	margin-top: 0;
 }
 
 .row {
@@ -104,7 +103,8 @@ ul.main-nav li a:hover {
 
 }
 
-p .highlight {
+a.highlight {
+	text-decoration: none;
 	color: #dc3d31;
 }
 
@@ -142,11 +142,12 @@ p.first:first-letter {
 }
 
 p.first:first-line {
-	line-height: 400%;
+	line-height: 100%;
 }
 
 p {
 	line-height: 1.5em;
+	margin-top: 20px;
 	margin-bottom: 40px;
 }
 
@@ -169,12 +170,47 @@ ul.list li a {
 	border-radius: 4px;
 }
 
+.thumb li img {
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
 #avi {
 	margin-top: 20px;
 }
 
 #avi2 {
 	margin-top: 20px;
+}
+
+#jt-jay {
+	width: 70%;
+	position: relative;
+	padding: 0 10px 0px;
+}
+
+#mchg {
+	width: 70%;
+	position: relative;
+	padding: 0 10px 0;
+}
+
+#jaybball {
+	width: 70%;
+	position: relative;
+	padding: 0 10px 0;
+}
+
+#jayhat {
+	width: 70%;
+	position: relative;
+	padding: 0 10px 0;
+}
+
+#kevindurant {
+	width: 70%;
+	position: relative;
+	padding: 0 10px 0;
 }
 
 h5 {
@@ -229,18 +265,27 @@ h6 {
 	font-weight: bold;
 	color: #7f8c8d;
 	margin-top: 10px;
+	margin-left: 0;
+}
+
+h6.details {
+	font-weight: bold;
+	color: #7f8c8d;
+	margin-top: 10px;
 	margin-left: 20px;
 }
 
 a.one {
-	padding: 0.600em;
+	margin: 0;
+	padding: 0;
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 0.600em;
 	color: #313539;
 	text-align: center;
 }
 
 #submit {
+	margin-top: 10px;
 	color: #fff;
 	font-size: 0.750em;
 	background: red;
@@ -248,6 +293,48 @@ a.one {
 	border-radius: 6px;
 }
 
+input {
+	margin-bottom: 10px;
+	padding: 5px 4px;
+}
+
+form {
+	margin-top: 10px;
+}
+
 #space {
 	margin-top: 20px;
+}
+
+footer {
+	margin: 0;
+	padding: 60px;
+	background: #ecf0f1;
+}
+
+#footer p {
+	font-size: 0.800em;
+	color: #7f8c8d;
+	line-height: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #7f8c8d; 
+}
+
+#footer h5 {
+	padding: 0 0 5px;
+	margin-left: 40px;
+}
+
+#footer ul {
+	margin-left: 40px;
+	
+}
+
+#footer ul li {
+	margin-top: 10px;
 }
