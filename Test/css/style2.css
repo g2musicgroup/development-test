@@ -36,13 +36,15 @@ hr {
 ul.main-nav, ul.main-nav li {
 	list-style: none;
 	font-weight: bold;
-	font-size: 0.960em;
+	font-size: .960em;
 	color: white;
 	display: inline;
-	width: 100px;
+	width: 100%;
 	margin: 0;
-	padding: 0; 
-	text-align: center;
+	padding: 0;
+	position: relative;
+	margin-left: 0;
+	/*text-align: center;*/
 }
 
 ul.main-nav li a { 
@@ -223,21 +225,19 @@ em {
 	font-style: italic;
 }
 
-.masthead_2 {
+#masthead_2 {
 	background: #ecf0f1;
-	padding: 40px 10px;
 	margin: 20px 0;
+	padding: 20px 20px;
+	
 }
 
-.masthead_2 p {
+#masthead_2 a {
 	font-family: 'Lato', sans-serif;
-	list-style: none;
-	color: #54575a;
-	line-height: 120%;
-	font-size: 0.800em;
-	margin: 10px;
-	padding: 0;
-	text-align: left;
+	display: block;
+	text-decoration: none;
+	color: #313539;
+	margin-left: 10px;
 }
 
 h3 {
