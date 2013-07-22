@@ -9,6 +9,12 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+footer {
+	margin: 0;
+	padding: 0;
+	background: #ecf0f1;
+}
+
 hr {
 	margin-top: 10px;
 }
@@ -136,11 +142,10 @@ p.first:first-letter {
 }
 
 p.first:first-line {
-	line-height: 100%;
+	line-height: 400%;
 }
 
 p {
-	margin-top: 20px;
 	line-height: 1.5em;
 	margin-bottom: 40px;
 }
@@ -165,6 +170,10 @@ ul.list li a {
 }
 
 #avi {
+	margin-top: 20px;
+}
+
+#avi2 {
 	margin-top: 20px;
 }
 
