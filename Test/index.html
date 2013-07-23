@@ -3,19 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>HipHopDX - Your #1 Source for Hip Hop News</title>
-	<meta name="robots" content="index, follow">
+	<meta name="author" content="Gawain Bracy II"/>
+	<meta name="keywords" content="Jay-Z, Roc Nation Sports Agency, Magna Carta Holy Grail, Interview, Life Is But A Dream"/>
+	<meta name="description" content='Jay-Z says "CNN Is Like TMZ"' />
+	<meta name="robots" content="index, follow"/>
 
 	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
-	<meta name="HandheldFriendly" content="True">
+	<meta name="HandheldFriendly" content="True"/>
+	<meta name="viewport" content="target-densitydpi=device-dpi" />
+	<meta name="handheldfriendly" content="true" />
 	<meta name="MobileOptimized" content="330"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<!-- StyleSheets under here -->
 	<!-- <link rel="stylesheet" href="themes/CS_Theme_1.min.css" /> -->
-	<link rel="stylesheet" type="text/css" href="css/960.css">
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/960.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	<link rel="stylesheet" type="text/css" href="css/jquery.pageslide.css" />
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" type="text/css" href="css/style2.css"/>
 	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
 	<script src="js/libs/modernizr.custom.min.js"></script>
@@ -29,13 +34,13 @@
 
 			<!-- Main Nav -->
 			<div class="row">
-				<div class="grid_2">
+				<div class="toplogo">
 					<a class='branding' href="index.html"><img src="image/logo_top_03.png" alt="top"></a>
 				</div>
 
-				<div class="grid_9">
+				<div class="navwrap">
 					<ul class="main-nav">
-						<li class="navItem"><a href="#">News</a></li>
+						<li class="navItem_1"><a href="#">News</a></li>
 						<li class="navItem"><a href="#">Tracks</a></li>
 						<li class="navItem"><a href="#">Videos</a></li>
 						<li class="navItem"><a href="#">Reviews</a></li>
@@ -45,7 +50,7 @@
 						<li class="navItem"><a href="#">Giveaways</a></li>
 					</ul>
 				</div>
-				<div class="grid_1">
+				<div class="searchwrap">
 					<a class="search" href="#"><img src="image/search_03.png" alt="search"></a>
 				</div>
 			</div>
@@ -56,7 +61,7 @@
 	<div class="container_12">
 		<!-- Top Advertisement -->
 		<div class="grid_12 row">
-			<img id="ad" src="image/topAd.gif" alt="topAd">
+			<a href="#"><img id="ad" src="image/topAd.gif" alt="topAd"></a>
 		</div>
 		<div class="clear"></div>
 		<!--  Masthead -->
@@ -87,8 +92,8 @@
 							<li><a href="#"><img src="image/gplus.png" alt="gplus"></a></li>
 							<li><a href="#"><img src="image/instagram.png" alt="instagram"></a></li>
 							<li><a href="#"><img src="image/pic.png" alt="pic"></a></li>
-							<li class="freq"><img src="image/freq.png" alt="freq">121</li>
-							<li><img src="image/chat.png" alt="chat">27</li>	
+							<li class="amount"><img src="image/freq.png" alt="freq">121</li>
+							<li class="amount"><img src="image/chat.png" alt="chat">27</li>	
 						</ul>
 					</div>
 					<img src="image/jay-bey.jpg" id="picture" alt="jay-bey">
@@ -102,14 +107,14 @@
 				<div>
 					<ul class="list">
 						<li><a href="#">Jay-Z</a></li>
-						<li><a href="#">Magna Carta Holy Grail</a></li>
+						<li id="move"><a href="#">Magna Carta Holy Grail</a></li>
 					</ul>	
 					<hr>
 				</div>		
 			</div>
 			<!-- Right side (Ad Unit & Content) -->
 			<div class="grid_4 row" >
-				<img src="image/rightAd.jpg" id="rightad" alt="rightad">
+				<a href="#"><img src="image/rightAd.jpg" id="rightad" alt="rightad"></a>
 				<div id="masthead_2">
 				<h5>LATEST NEWS</h5>
 				<a href="#">Loaded Lux Shares Advice He Received From Big L</a><br>
@@ -117,7 +122,8 @@
 				<a href="#">ScHoolboy Q Confirms J. Cole Production, Raekwon Appearance On "Oxymoron"</a><br>
 				<a href="#">Tech N9ne Announces "Something Else Tour" Dates</a><br>
 				<a href="#">Jay-Z Performs "Picasso Baby" For Six Straight Hours</a><br>
-				<a href="#">Ice-T, Snoop Lion & Jurassic 5 To Headline 2013 Fun Fun Fun Fest</a><br>				<a href="#">Curren$y & Jet Life Partner With BitTorrent In Mixtape Release</a><br>
+				<a href="#">Ice-T, Snoop Lion & Jurassic 5 To Headline 2013 Fun Fun Fun Fest</a><br>				
+				<a href="#">Curren$y & Jet Life Partner With BitTorrent In Mixtape Release</a><br>
 				<a href="#">Guerilla Black Pleads Guilty To Fraud & Theft Charges</a><br>
 				<a href="#">Evidence Names His 5 "Best Producers On The Mic"</a><br>
 				<a href="#">Red Bull Sound Select Headlined By Erykah Badu, Juicy J & Theophilus London</a><br>
@@ -145,47 +151,49 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			<div class="container_12">
-				<div class="grid_2 row">
-					<ul class="thumb">
-						<li>
+			<div id="exclusive">
+				<ul class="container_12" style="padding-left:20px;">
+					<li class="relatedstories1">
+						<a href="#">
 							<img src="image/jt-jay.jpg" alt="jt-jay" id="jt-jay">
+						</a>
+						<p>
 							<a class="one" href="#">Jay-Z Releases The Lyrics To "Oceans," Featuring Frank Ocean</a>
-						</li>
-					</ul>
-				</div>
-				<div class="grid_2 row">
-					<ul class="thumb">
-						<li>
+						</p>
+					</li>
+					<li class="relatedstories1">
+						<a href="#">
 							<img src="image/mchg.jpg" alt="mchg" id="mchg">
+						</a>
+						<p>
 							<a class="one" href="#">Jay-Z’s “Magna Carta Holy Grail” Tracklist, Cover Art & Spotify Stream</a>
-						</li>
-					</ul>
-				</div>
-				<div class="grid_2 row">
-					<ul class="thumb">
-						<li>
+						<p>
+					</li>
+					<li class="relatedstories1">
+						<a href="#">
 							<img src="image/jaybball.jpg" alt="jaybball" id="jaybball">
+						</a>
+						<p>
 							<a class="one" href="#">Jay-Z’s “Magna Carta Holy Grail” Tracklist Decoded</a>
-						</li>
-					</ul>
-				</div>
-				<div class="grid_2 row">
-					<ul class="thumb">
-						<li>
+						<p>
+					</li>
+					<li class="relatedstories1">
+						<a href="#">
 							<img src="image/jayhat.jpg" alt="jayhat" id="jayhat">
+						</a>
+						<p>
 							<a class="one" href="#">Jay-Z Addresses Cuba Criticism & Nets Ownership In "Open Letter"</a>
-						</li>
-					</ul>
-				</div>
-				<div class="grid_2 row">
-					<ul class="thumb">
-						<li>
+						<p>							
+					</li>
+					<li class="relatedstories1">
+						<a href="#">
 							<img src="image/image_52.jpg" alt="kevindurant" id="kevindurant">
+						</a>
+						<p>
 							<a class="one" href="#">Jay-Z's Roc Nation Sports Signs Kevin Durant</a>
-						</li>
-					</ul>
-				</div>
+						<p>		
+					</li>
+				</ul>
 			</div>
 				<div class="clear"></div>
 				<!-- Leave A Comment -->
